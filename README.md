@@ -3,22 +3,31 @@
 ## Sensors/Pins
 
 ### Eyes (Brake Lights)
+
 (A1, A2) - Left Eye. (255, 255)=OFF, (0, 255)=DIM, (255, 0)=BRIGHT
+
 (D8, D9) - Right Eye. (HIGH, HIGH)=OFF,(LOW, HIGH)=DIM, (HIGH, LOW)=BRIGHT 
 
 ### Plunger
+
 D0 - Read pin. 0 means the button was depressed.
 
 ### Other
+
 A3 - Used for randomizing start of loop
 
 ## Loop
 
-Eyes are dim and kitty is purring. 
-When the button is pressed, eyes brighten and a greeting is played. The first greeting is random, but play proceeds in order after that. 
+Eyes are dim and kitty is purring.
+
+When the button is pressed, eyes brighten and a greeting is played. The first greeting is random, but play proceeds in order after that.
+
 Data processing sounds play while eyes blink. 
+
 Eyes brighten again while the Haiku is read. This will also start on a random Haiku and proceed in order.
+
 Ending sound while eyes blink.
+
 Delay 1.5 seconds before looping.
 
 ## Feedback
