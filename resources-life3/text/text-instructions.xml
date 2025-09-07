@@ -1,0 +1,12 @@
+<speak version="1.1">
+<prosody volume="+8dB">
+
+Here is my text. I can add a short silence with double square brackets. The bigger the number is the longer the silence. [[slnc 40]]
+I can change the volume of the whole file by changing the number above.
+I can change how a phrase is spoken by doing this. 
+<prosody rate="60%">This phrase will be spoken at 60% of the speed of the rest of the file.</prosody>
+I can make the pitch<prosody pitch="+80%">higher</prosody> [[slnc 50]] or <prosody pitch="-80%">lower</prosody>. [[slnc 50]]
+<prosody rate="150%" pitch="+50%">I can combine these things to sound like a chipmunk.</prosody>
+
+</prosody>
+</speak>
